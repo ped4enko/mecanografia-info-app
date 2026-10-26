@@ -1,0 +1,94 @@
+﻿Field,ID,Type,default,es-es,en-us,ca-es
+Description,2,Text,,"Mecanografía Info es la app de mecanografía en español de mecanografia.info para aprender a escribir con todos los dedos sin mirar el teclado. Es gratis, no necesita registro y funciona sin conexión.
+
+Practica con textos reales en español con tildes, ñ, diéresis y los signos ¿ y ¡. El teclado en pantalla muestra con colores qué dedo pulsa cada tecla y resalta la siguiente tecla que debes escribir, incluida la tecla de acento ´ para las vocales con tilde.
+
+MODOS DE PRÁCTICA
+• Práctica: textos variados con PPM, precisión, tiempo y nivel en directo.
+• Test de 1 minuto: mide tu velocidad real de escritura.
+• Niños: frases cortas y sencillas para los más pequeños.
+• Sin tildes: los mismos textos sin acentos, ideal para empezar.
+• Estadísticas: mejor PPM, media y gráfico de tus últimas sesiones.
+
+PENSADA PARA WINDOWS
+• Funciona sin internet una vez instalada.
+• Tema claro y oscuro.
+• Interfaz en español, catalán e inglés, con teclado español (ISO) o estadounidense.
+• Accesos directos desde el menú Inicio al test, al modo niños y a las estadísticas.
+
+PRIVACIDAD
+Sin anuncios, sin rastreadores y sin cuentas. Tus resultados se guardan solo en tu dispositivo.
+
+Diez minutos al día bastan para notar el progreso en pocas semanas.","Mecanografía Info is the typing tutor from mecanografia.info. Learn to type with all ten fingers without looking at the keyboard. It is free, needs no account and works offline.
+
+Practice with real texts in English, Spanish or Catalan, including accents, ñ and the ¿ ¡ signs. The on-screen keyboard shows with colours which finger presses each key and highlights the next key to type, including the dead accent key for accented vowels.
+
+PRACTICE MODES
+• Practice: varied texts with live WPM, accuracy, time and level.
+• 1-minute test: measure your real typing speed.
+• Kids: short, simple sentences for young learners.
+• No accents: the same texts without diacritics, ideal for beginners.
+• Statistics: best WPM, average and a chart of your recent sessions.
+
+BUILT FOR WINDOWS
+• Works without internet once installed.
+• Light and dark theme.
+• English, Spanish and Catalan interface, with US or Spanish (ISO) keyboard layout.
+• Start menu shortcuts to the test, kids mode and statistics.
+
+PRIVACY
+No ads, no trackers and no accounts. Your results are stored only on your device.
+
+Ten minutes a day is enough to see progress within a few weeks.","Mecanografía Info és l'app de mecanografia de mecanografia.info per aprendre a escriure amb tots els dits sense mirar el teclat. És gratuïta, no cal registrar-se i funciona sense connexió.
+
+Practica amb textos reals en català, castellà o anglès, amb accents oberts i tancats, ç, dièresi i l·l. El teclat en pantalla mostra amb colors quin dit prem cada tecla i ressalta la tecla següent, incloses les tecles d'accent per a les vocals accentuades.
+
+MODES DE PRÀCTICA
+• Pràctica: textos variats amb PPM, precisió, temps i nivell en directe.
+• Test d'1 minut: mesura la teva velocitat real d'escriptura.
+• Infants: frases curtes i senzilles per als més petits.
+• Sense accents: els mateixos textos sense accents, ideal per començar.
+• Estadístiques: millor PPM, mitjana i gràfic de les darreres sessions.
+
+PENSADA PER A WINDOWS
+• Funciona sense internet un cop instal·lada.
+• Tema clar i fosc.
+• Interfície en català, castellà i anglès, amb teclat espanyol (ISO) o nord-americà.
+• Accessos directes des del menú Inici al test, al mode infants i a les estadístiques.
+
+PRIVADESA
+Sense anuncis, sense rastrejadors i sense comptes. Els resultats es desen només al teu dispositiu.
+
+Deu minuts al dia són suficients per notar el progrés en poques setmanes."
+ReleaseNotes,3,Text,,"Primera versión: práctica, test de 1 minuto, modo niños, modo sin tildes, estadísticas, teclado con colores por dedo, tema oscuro y uso sin conexión.","First release: practice, 1-minute test, kids mode, no-accents mode, statistics, finger-coloured keyboard, dark theme and offline use.","Primera versió: pràctica, test d'1 minut, mode infants, mode sense accents, estadístiques, teclat amb colors per dit, tema fosc i ús sense connexió."
+Title,4,Text,,Mecanografía Info,Mecanografía Info,Mecanografía Info
+ShortDescription,8,Text,,"Aprende mecanografía en español gratis y sin conexión: tildes, ñ, ¿ ¡, test de velocidad de 1 minuto, modo para niños y estadísticas de progreso.","Learn to touch type for free, even offline: Spanish accents, ñ, ¿ ¡, a 1-minute speed test, a kids mode and progress statistics.","Aprèn mecanografia gratis i sense connexió: accents, ç, l·l, test de velocitat d'1 minut, mode per a infants i estadístiques de progrés."
+CopyrightTrademarkInfo,12,Text,,© 2026 mecanografia.info,© 2026 mecanografia.info,© 2026 mecanografia.info
+DesktopScreenshot1,100,Relative path (or URL to file in Partner Center),,store-listing/images/es-es/1-practice.png,store-listing/images/en-us/1-practice.png,store-listing/images/ca-es/1-practice.png
+DesktopScreenshot2,101,Relative path (or URL to file in Partner Center),,store-listing/images/es-es/2-stats.png,store-listing/images/en-us/2-stats.png,store-listing/images/ca-es/2-stats.png
+DesktopScreenshot3,102,Relative path (or URL to file in Partner Center),,store-listing/images/es-es/3-kids-dark.png,store-listing/images/en-us/3-kids-dark.png,store-listing/images/ca-es/3-kids-dark.png
+DesktopScreenshot4,103,Relative path (or URL to file in Partner Center),,store-listing/images/es-es/4-test.png,store-listing/images/en-us/4-test.png,store-listing/images/ca-es/4-test.png
+DesktopScreenshot5,104,Relative path (or URL to file in Partner Center),,store-listing/images/es-es/5-no-accents.png,store-listing/images/en-us/5-no-accents.png,store-listing/images/ca-es/5-no-accents.png
+DesktopScreenshotCaption1,150,Text,,"Practica con tildes, ñ, ¿ y ¡ y un teclado con colores por dedo",Practice with a finger-coloured keyboard and live WPM,Practica amb un teclat amb colors per dit i PPM en directe
+DesktopScreenshotCaption2,151,Text,,"Sigue tu progreso con PPM, media y gráfico de sesiones","Track your progress with best WPM, average and a session chart","Segueix el progrés amb millor PPM, mitjana i gràfic de sessions"
+DesktopScreenshotCaption3,152,Text,,"Modo niños con frases sencillas, también en tema oscuro","Kids mode with simple sentences, also in dark theme","Mode infants amb frases senzilles, també en tema fosc"
+DesktopScreenshotCaption4,153,Text,,Test de velocidad de 1 minuto,1-minute typing speed test,Test de velocitat d'1 minut
+DesktopScreenshotCaption5,154,Text,,Modo sin tildes para empezar desde cero,No-accents mode for beginners,Mode sense accents per començar de zero
+Feature1,700,Text,,"Práctica de mecanografía en español con tildes, ñ, ¿ y ¡","Touch typing practice in English, Spanish and Catalan","Pràctica de mecanografia en català, castellà i anglès"
+Feature2,701,Text,,Teclado en pantalla con colores por dedo y tecla siguiente resaltada,On-screen keyboard with finger colours and next-key highlight,Teclat en pantalla amb colors per dit i tecla següent ressaltada
+Feature3,702,Text,,Test de velocidad de 1 minuto,1-minute typing speed test,Test de velocitat d'1 minut
+Feature4,703,Text,,Modo para niños con frases cortas y sencillas,"Kids mode with short, simple sentences",Mode infants amb frases curtes i senzilles
+Feature5,704,Text,,Modo sin tildes para empezar,No-accents mode for beginners,Mode sense accents per començar
+Feature6,705,Text,,"PPM, precisión, tiempo y nivel en directo","Live WPM, accuracy, time and level","PPM, precisió, temps i nivell en directe"
+Feature7,706,Text,,"Estadísticas con mejor PPM, media y gráfico de progreso","Statistics with best WPM, average and progress chart","Estadístiques amb millor PPM, mitjana i gràfic de progrés"
+Feature8,707,Text,,Funciona sin conexión,Works offline,Funciona sense connexió
+Feature9,708,Text,,Tema claro y oscuro,Light and dark theme,Tema clar i fosc
+Feature10,709,Text,,"Interfaz en español, catalán e inglés","Supports Spanish accents, ñ, ¿ and ¡","Interfície en català, castellà i anglès"
+Feature11,710,Text,,"Sin anuncios, sin registro y sin rastreadores","No ads, no sign-up and no trackers","Sense anuncis, sense registre i sense rastrejadors"
+SearchTerm1,1000,Text,,mecanografía,typing,mecanografia
+SearchTerm2,1001,Text,,teclear,touch typing,teclejar
+SearchTerm3,1002,Text,,escribir rápido,typing test,escriure ràpid
+SearchTerm4,1003,Text,,test de velocidad,typing tutor,test de velocitat
+SearchTerm5,1004,Text,,mecanografía niños,WPM,mecanografia infants
+SearchTerm6,1005,Text,,teclado español,learn Spanish typing,teclat català
+SearchTerm7,1006,Text,,PPM,kids typing,PPM
