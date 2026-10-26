@@ -41,10 +41,11 @@ python3 -m http.server 8080
 
 ## Публікація (HTTPS)
 
-PWABuilder і Store потребують, щоб застосунок був доступний за HTTPS-адресою. Варіанти:
+Робоча адреса: **https://mecanografia.info/ms-app/**. Основний сайт — Cloudflare Pages (проєкт `mecanografiapage`), файли застосунку лежать у підпапці `ms-app/` репозиторію сайту. Усі шляхи відносні, тож `scope` і `start_url` у маніфесті автоматично стають `/ms-app/`.
 
-1. **GitHub Pages** — у репозиторії вже є `.github/workflows/pages.yml`. Увімкніть *Settings → Pages → Source: GitHub Actions*, після злиття в `main` сайт буде на `https://ped4enko.github.io/mecanografia-info-app/`.
-2. **Піддиректорія mecanografia.info** (наприклад `https://mecanografia.info/app/`) — просто скопіюйте файли; усі шляхи відносні, `scope` і `start_url` у маніфесті підхоплять каталог.
+Оновлення: скопіюйте файли цього репозиторію (крім `README.md`, `.github/`, `screenshots/store/`) у `ms-app/` сайту і задеплойте сайт.
+
+Як запасний варіант, у репозиторії є `.github/workflows/pages.yml` для GitHub Pages (запускається з `main`).
 
 Після кожного релізу збільшуйте `VERSION` у `sw.js`, щоб користувачі отримали оновлення.
 
