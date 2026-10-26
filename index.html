@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Mecanografía Info</title>
+  <meta name="description" content="Practica mecanografía en español gratis y sin conexión: tildes, ñ, ¿ ¡, test de velocidad, modo niños y estadísticas.">
+  <meta name="theme-color" content="#0f6b5c" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d1714" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light dark">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="icons/icon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>
+    // Apply the saved theme before first paint to avoid a flash.
+    try { const t = localStorage.getItem('mi.theme'); if (t) document.documentElement.dataset.theme = t; } catch {}
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="Mecanografía Info">
+      <img src="icons/favicon.svg" alt="" width="32" height="32">
+      <span class="brand-text">
+        <strong>Mecanografía</strong>
+        <small data-i18n="tagline">Práctica de mecanografía en español</small>
+      </span>
+    </a>
+    <div class="top-actions">
+      <button id="installBtn" class="btn btn-ghost" hidden data-i18n="install">Instalar app</button>
+      <label class="visually-hidden" for="langSelect" data-i18n="language">Idioma</label>
+      <select id="langSelect" class="select">
+        <option value="es">ES</option>
+        <option value="en">EN</option>
+        <option value="ca">CA</option>
+      </select>
+      <button id="helpBtn" class="icon-btn" data-i18n-title="help" title="Ayuda" aria-label="Ayuda">?</button>
+      <button id="themeBtn" class="icon-btn" data-i18n-title="theme" title="Cambiar tema" aria-label="Cambiar tema">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.4 5.4 0 0 1-9.54-4.98A5.4 5.4 0 0 1 13.36 3.1 9.3 9.3 0 0 0 12 3Z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <nav class="modes" role="tablist" aria-label="Modos">
+      <button class="mode" role="tab" data-mode="practice" data-i18n="practice">Práctica</button>
+      <button class="mode" role="tab" data-mode="test" data-i18n="test">Test 1 min</button>
+      <button class="mode" role="tab" data-mode="kids" data-i18n="kids">Niños</button>
+      <button class="mode" role="tab" data-mode="noaccents" data-i18n="noAccents">Sin tildes</button>
+      <button class="mode" role="tab" data-mode="stats" data-i18n="stats">Estadísticas</button>
+    </nav>
+
+    <section id="trainer" class="panel">
+      <div class="metrics" aria-live="polite">
+        <div class="metric"><span class="metric-value" id="wpm">0</span><span class="metric-label" data-i18n="wpm">PPM</span></div>
+        <div class="metric"><span class="metric-value" id="acc">100%</span><span class="metric-label" data-i18n="accuracy">Precisión</span></div>
+        <div class="metric"><span class="metric-value" id="time">0:00</span><span class="metric-label" data-i18n="time">Tiempo</span></div>
+        <div class="metric"><span class="metric-value" id="level">—</span><span class="metric-label" data-i18n="level">Nivel</span></div>
+      </div>
+
+      <p id="hint" class="hint" data-i18n="hint">Empieza a escribir el texto. Pulsa Tab para reiniciar.</p>
+
+      <div id="textBox" class="text-box" tabindex="0" aria-describedby="hint">
+        <div id="text" class="text" aria-hidden="true"></div>
+        <textarea id="input" class="typing-input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="Escribe aquí"></textarea>
+      </div>
+
+      <div id="result" class="result" hidden>
+        <strong data-i18n="done">¡Terminado!</strong>
+        <span id="resultLine"></span>
+      </div>
+
+      <div class="controls">
+        <button id="restartBtn" class="btn" data-i18n="restart">Reiniciar</button>
+        <button id="newBtn" class="btn btn-primary" data-i18n="newText">Nuevo texto</button>
+      </div>
+
+      <div id="keyboard" class="keyboard" aria-hidden="true"></div>
+    </section>
+
+    <section id="stats" class="panel" hidden>
+      <div class="metrics">
+        <div class="metric"><span class="metric-value" id="statBest">0</span><span class="metric-label" data-i18n="best">Mejor PPM</span></div>
+        <div class="metric"><span class="metric-value" id="statAvg">0</span><span class="metric-label" data-i18n="avg">Media PPM</span></div>
+        <div class="metric"><span class="metric-value" id="statCount">0</span><span class="metric-label" data-i18n="sessions">Sesiones</span></div>
+      </div>
+      <h2 data-i18n="history">Últimas sesiones</h2>
+      <p id="statsEmpty" class="hint" data-i18n="empty">Aún no hay sesiones.</p>
+      <div id="chart" class="chart" role="img" aria-label="PPM"></div>
+      <button id="resetStats" class="btn btn-danger" data-i18n="reset">Borrar estadísticas</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> mecanografia.info</span>
+    <a href="privacy.html" data-i18n="privacy">Privacidad</a>
+  </footer>
+
+  <dialog id="helpDialog" class="dialog">
+    <h2 data-i18n="helpTitle">Cómo practicar</h2>
+    <ul id="helpList"></ul>
+    <form method="dialog"><button class="btn btn-primary" data-i18n="close">Cerrar</button></form>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" hidden></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
