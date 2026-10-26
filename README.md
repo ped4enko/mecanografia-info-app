@@ -24,7 +24,7 @@ js/keyboard.js         розкладки клавіатури та пальці
 js/i18n.js             переклади інтерфейсу
 sw.js                  service worker (офлайн-кеш)
 manifest.webmanifest   маніфест PWA
-icons/                 іконки (any + maskable), SVG-оригінали
+icons/                 іконки (any + maskable) з фавікона mecanografia.info
 screenshots/           скриншоти для маніфесту і Store
 privacy.html           політика конфіденційності (потрібна для Store)
 offline.html           резервна сторінка без мережі

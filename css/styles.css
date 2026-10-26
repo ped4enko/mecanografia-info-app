@@ -78,6 +78,7 @@ h2 { font-size: 1.05rem; margin: 1.5rem 0 .75rem; }
 }
 .topbar button, .topbar select, .topbar a { -webkit-app-region: no-drag; app-region: no-drag; }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; }
+.brand-icon { border-radius: 7px; }
 .brand-text { display: flex; flex-direction: column; line-height: 1.15; }
 .brand-text strong { font-size: 1.1rem; letter-spacing: -.01em; }
 .brand-text small { color: var(--muted); font-size: .78rem; }
