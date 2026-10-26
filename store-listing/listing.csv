@@ -1,94 +1,514 @@
-﻿Field,ID,Type,default,es-es,en-us,ca-es
-Description,2,Text,,"Mecanografía Info es la app de mecanografía en español de mecanografia.info para aprender a escribir con todos los dedos sin mirar el teclado. Es gratis, no necesita registro y funciona sin conexión.
+﻿Field,ID,Type (Type),default,es,ca-es,en
+Description,2,Text,,"¿Cuánto tiempo pierdes buscando la ñ o el acento? Mecanografía Info es un tutor de mecanografía gratuito pensado para el español: practica con textos reales con tildes, ñ, ¿ y ¡ incluidos, y pasa de teclear con dos dedos a escribir sin mirar el teclado.
 
-Practica con textos reales en español con tildes, ñ, diéresis y los signos ¿ y ¡. El teclado en pantalla muestra con colores qué dedo pulsa cada tecla y resalta la siguiente tecla que debes escribir, incluida la tecla de acento ´ para las vocales con tilde.
+Mientras escribes, verás en tiempo real tu velocidad en pulsaciones por minuto (PPM), tu precisión y el tiempo. Así puedes seguir tu progreso sesión a sesión y comprobar cómo mejoras.
 
-MODOS DE PRÁCTICA
-• Práctica: textos variados con PPM, precisión, tiempo y nivel en directo.
-• Test de 1 minuto: mide tu velocidad real de escritura.
-• Niños: frases cortas y sencillas para los más pequeños.
-• Sin tildes: los mismos textos sin acentos, ideal para empezar.
-• Estadísticas: mejor PPM, media y gráfico de tus últimas sesiones.
+QUÉ INCLUYE
+• Textos en español de distintos niveles: desde frases cortas y sencillas hasta párrafos con más acentos y signos propios del idioma.
+• Teclado virtual en distribución española (ISO) con colores por dedo, para aprender la posición correcta de cada tecla.
+• Estadísticas en vivo: PPM, precisión y tiempo.
+• «Reiniciar» para repetir el mismo texto y «Nuevo texto» para cambiar de ejercicio.
+• Modos de práctica: test de 1 minuto, modo niños y modo sin tildes, con estadísticas de tu progreso.
+• Funciona sin conexión, con tema claro y oscuro.
 
-PENSADA PARA WINDOWS
-• Funciona sin internet una vez instalada.
-• Tema claro y oscuro.
-• Interfaz en español, catalán e inglés, con teclado español (ISO) o estadounidense.
-• Accesos directos desde el menú Inicio al test, al modo niños y a las estadísticas.
+PARA QUIÉN ES
+• Niños: frases cortas y amigables para ganar confianza, priorizando la precisión antes que la velocidad.
+• Estudiantes: redacta deberes y trabajos más rápido y escribe bien los acentos incluso con prisa.
+• Teletrabajo: responde antes correos, chats y tickets, con menos erratas y más ritmo.
 
-PRIVACIDAD
-Sin anuncios, sin rastreadores y sin cuentas. Tus resultados se guardan solo en tu dispositivo.
+CÓMO PRACTICAR BIEN
+Sesiones cortas y frecuentes funcionan mejor que maratones ocasionales. Coloca los dedos en la posición base (F y J), no mires el teclado y prioriza la precisión. Con 10–15 minutos al día, muchas personas notan avances en pocas semanas.
 
-Diez minutos al día bastan para notar el progreso en pocas semanas.","Mecanografía Info is the typing tutor from mecanografia.info. Learn to type with all ten fingers without looking at the keyboard. It is free, needs no account and works offline.
+Todo el contenido es gratuito y no necesitas registrarte.","Quant de temps perds buscant la ç o l'accent? Mecanografía Info és un tutor de mecanografia gratuït: practica amb textos reals amb accents, ç, l·l, ñ, ¿ i ¡, i passa de teclejar amb dos dits a escriure sense mirar el teclat. La interfície també està disponible en català i en anglès.
 
-Practice with real texts in English, Spanish or Catalan, including accents, ñ and the ¿ ¡ signs. The on-screen keyboard shows with colours which finger presses each key and highlights the next key to type, including the dead accent key for accented vowels.
+Mentre escrius, veuràs en temps real la teva velocitat en paraules per minut (PPM), la precisió i el temps. Així pots seguir el teu progrés sessió a sessió.
 
-PRACTICE MODES
-• Practice: varied texts with live WPM, accuracy, time and level.
-• 1-minute test: measure your real typing speed.
-• Kids: short, simple sentences for young learners.
-• No accents: the same texts without diacritics, ideal for beginners.
-• Statistics: best WPM, average and a chart of your recent sessions.
+QUÈ INCLOU
+• Textos de diferents nivells: des de frases curtes i senzilles fins a paràgrafs amb més accents i signes propis de l'idioma.
+• Teclat virtual en distribució espanyola (ISO) amb colors per dit, per aprendre la posició correcta de cada tecla.
+• Estadístiques en directe: PPM, precisió i temps.
+• «Reinicia» per repetir el mateix text i «Text nou» per canviar d'exercici.
+• Modes de pràctica: test d'1 minut, mode infants i mode sense accents, amb estadístiques del teu progrés.
+• Funciona sense connexió, amb tema clar i fosc.
 
-BUILT FOR WINDOWS
-• Works without internet once installed.
-• Light and dark theme.
-• English, Spanish and Catalan interface, with US or Spanish (ISO) keyboard layout.
-• Start menu shortcuts to the test, kids mode and statistics.
+PER A QUI ÉS
+• Infants: frases curtes i amables per guanyar confiança, prioritzant la precisió abans que la velocitat.
+• Estudiants: redacta deures i treballs més de pressa i escriu bé els accents fins i tot amb pressa.
+• Teletreball: respon abans correus, xats i tiquets, amb menys errates i més ritme.
 
-PRIVACY
-No ads, no trackers and no accounts. Your results are stored only on your device.
+COM PRACTICAR BÉ
+Les sessions curtes i freqüents funcionen millor que les maratons ocasionals. Col·loca els dits a la posició base (F i J), no miris el teclat i prioritza la precisió. Amb 10–15 minuts al dia, moltes persones noten avenços en poques setmanes.
 
-Ten minutes a day is enough to see progress within a few weeks.","Mecanografía Info és l'app de mecanografia de mecanografia.info per aprendre a escriure amb tots els dits sense mirar el teclat. És gratuïta, no cal registrar-se i funciona sense connexió.
+Tot el contingut és gratuït i no cal registrar-se.","How much time do you lose hunting for accented letters? Mecanografía Info is a free typing tutor built around Spanish: practise with real texts that include accents, ñ, ¿ and ¡, and go from two-finger typing to typing without looking at the keyboard. The interface is also available in English and Catalan.
 
-Practica amb textos reals en català, castellà o anglès, amb accents oberts i tancats, ç, dièresi i l·l. El teclat en pantalla mostra amb colors quin dit prem cada tecla i ressalta la tecla següent, incloses les tecles d'accent per a les vocals accentuades.
+As you type, you see your speed in words per minute (WPM), your accuracy and the time in real time, so you can follow your progress session after session.
 
-MODES DE PRÀCTICA
-• Pràctica: textos variats amb PPM, precisió, temps i nivell en directe.
-• Test d'1 minut: mesura la teva velocitat real d'escriptura.
-• Infants: frases curtes i senzilles per als més petits.
-• Sense accents: els mateixos textos sense accents, ideal per començar.
-• Estadístiques: millor PPM, mitjana i gràfic de les darreres sessions.
+WHAT'S INCLUDED
+• Texts at different levels: from short, simple sentences to paragraphs with more accents and Spanish-specific punctuation.
+• On-screen keyboard (Spanish ISO or US layout) with colours per finger, so you learn the correct position of every key.
+• Live statistics: WPM, accuracy and time.
+• ""Restart"" to repeat the same text and ""New text"" to switch exercises.
+• Practice modes: 1-minute test, kids mode and no-accents mode, with statistics of your progress.
+• Works offline, with light and dark theme.
 
-PENSADA PER A WINDOWS
-• Funciona sense internet un cop instal·lada.
-• Tema clar i fosc.
-• Interfície en català, castellà i anglès, amb teclat espanyol (ISO) o nord-americà.
-• Accessos directes des del menú Inici al test, al mode infants i a les estadístiques.
+WHO IT'S FOR
+• Kids: short, friendly sentences to build confidence, putting accuracy before speed.
+• Students: write homework and assignments faster and get accents right even in a hurry.
+• Remote workers: answer emails, chats and tickets sooner, with fewer typos and a better rhythm.
 
-PRIVADESA
-Sense anuncis, sense rastrejadors i sense comptes. Els resultats es desen només al teu dispositiu.
+HOW TO PRACTISE WELL
+Short, frequent sessions work better than occasional marathons. Rest your fingers on the home position (F and J), don't look at the keyboard and focus on accuracy. With 10–15 minutes a day, many people notice progress within a few weeks.
 
-Deu minuts al dia són suficients per notar el progrés en poques setmanes."
-ReleaseNotes,3,Text,,"Primera versión: práctica, test de 1 minuto, modo niños, modo sin tildes, estadísticas, teclado con colores por dedo, tema oscuro y uso sin conexión.","First release: practice, 1-minute test, kids mode, no-accents mode, statistics, finger-coloured keyboard, dark theme and offline use.","Primera versió: pràctica, test d'1 minut, mode infants, mode sense accents, estadístiques, teclat amb colors per dit, tema fosc i ús sense connexió."
+Everything is free and no sign-up is needed."
+ReleaseNotes,3,Text,,"Primera versión: práctica, test de 1 minuto, modo niños, modo sin tildes, estadísticas, teclado con colores por dedo, tema oscuro y uso sin conexión.","Primera versió: pràctica, test d'1 minut, mode infants, mode sense accents, estadístiques, teclat amb colors per dit, tema fosc i ús sense connexió.","First release: practice, 1-minute test, kids mode, no-accents mode, statistics, finger-coloured keyboard, dark theme and offline use."
 Title,4,Text,,Mecanografía Info,Mecanografía Info,Mecanografía Info
-ShortDescription,8,Text,,"Aprende mecanografía en español gratis y sin conexión: tildes, ñ, ¿ ¡, test de velocidad de 1 minuto, modo para niños y estadísticas de progreso.","Learn to touch type for free, even offline: Spanish accents, ñ, ¿ ¡, a 1-minute speed test, a kids mode and progress statistics.","Aprèn mecanografia gratis i sense connexió: accents, ç, l·l, test de velocitat d'1 minut, mode per a infants i estadístiques de progrés."
-CopyrightTrademarkInfo,12,Text,,© 2026 mecanografia.info,© 2026 mecanografia.info,© 2026 mecanografia.info
-DesktopScreenshot1,100,Relative path (or URL to file in Partner Center),,store-listing/images/es-es/1-practice.png,store-listing/images/en-us/1-practice.png,store-listing/images/ca-es/1-practice.png
-DesktopScreenshot2,101,Relative path (or URL to file in Partner Center),,store-listing/images/es-es/2-stats.png,store-listing/images/en-us/2-stats.png,store-listing/images/ca-es/2-stats.png
-DesktopScreenshot3,102,Relative path (or URL to file in Partner Center),,store-listing/images/es-es/3-kids-dark.png,store-listing/images/en-us/3-kids-dark.png,store-listing/images/ca-es/3-kids-dark.png
-DesktopScreenshot4,103,Relative path (or URL to file in Partner Center),,store-listing/images/es-es/4-test.png,store-listing/images/en-us/4-test.png,store-listing/images/ca-es/4-test.png
-DesktopScreenshot5,104,Relative path (or URL to file in Partner Center),,store-listing/images/es-es/5-no-accents.png,store-listing/images/en-us/5-no-accents.png,store-listing/images/ca-es/5-no-accents.png
-DesktopScreenshotCaption1,150,Text,,"Practica con tildes, ñ, ¿ y ¡ y un teclado con colores por dedo",Practice with a finger-coloured keyboard and live WPM,Practica amb un teclat amb colors per dit i PPM en directe
-DesktopScreenshotCaption2,151,Text,,"Sigue tu progreso con PPM, media y gráfico de sesiones","Track your progress with best WPM, average and a session chart","Segueix el progrés amb millor PPM, mitjana i gràfic de sessions"
-DesktopScreenshotCaption3,152,Text,,"Modo niños con frases sencillas, también en tema oscuro","Kids mode with simple sentences, also in dark theme","Mode infants amb frases senzilles, també en tema fosc"
-DesktopScreenshotCaption4,153,Text,,Test de velocidad de 1 minuto,1-minute typing speed test,Test de velocitat d'1 minut
-DesktopScreenshotCaption5,154,Text,,Modo sin tildes para empezar desde cero,No-accents mode for beginners,Mode sense accents per començar de zero
-Feature1,700,Text,,"Práctica de mecanografía en español con tildes, ñ, ¿ y ¡","Touch typing practice in English, Spanish and Catalan","Pràctica de mecanografia en català, castellà i anglès"
-Feature2,701,Text,,Teclado en pantalla con colores por dedo y tecla siguiente resaltada,On-screen keyboard with finger colours and next-key highlight,Teclat en pantalla amb colors per dit i tecla següent ressaltada
-Feature3,702,Text,,Test de velocidad de 1 minuto,1-minute typing speed test,Test de velocitat d'1 minut
-Feature4,703,Text,,Modo para niños con frases cortas y sencillas,"Kids mode with short, simple sentences",Mode infants amb frases curtes i senzilles
-Feature5,704,Text,,Modo sin tildes para empezar,No-accents mode for beginners,Mode sense accents per començar
-Feature6,705,Text,,"PPM, precisión, tiempo y nivel en directo","Live WPM, accuracy, time and level","PPM, precisió, temps i nivell en directe"
-Feature7,706,Text,,"Estadísticas con mejor PPM, media y gráfico de progreso","Statistics with best WPM, average and progress chart","Estadístiques amb millor PPM, mitjana i gràfic de progrés"
-Feature8,707,Text,,Funciona sin conexión,Works offline,Funciona sense connexió
-Feature9,708,Text,,Tema claro y oscuro,Light and dark theme,Tema clar i fosc
-Feature10,709,Text,,"Interfaz en español, catalán e inglés","Supports Spanish accents, ñ, ¿ and ¡","Interfície en català, castellà i anglès"
-Feature11,710,Text,,"Sin anuncios, sin registro y sin rastreadores","No ads, no sign-up and no trackers","Sense anuncis, sense registre i sense rastrejadors"
-SearchTerm1,1000,Text,,mecanografía,typing,mecanografia
-SearchTerm2,1001,Text,,teclear,touch typing,teclejar
-SearchTerm3,1002,Text,,escribir rápido,typing test,escriure ràpid
-SearchTerm4,1003,Text,,test de velocidad,typing tutor,test de velocitat
-SearchTerm5,1004,Text,,mecanografía niños,WPM,mecanografia infants
-SearchTerm6,1005,Text,,teclado español,learn Spanish typing,teclat català
-SearchTerm7,1006,Text,,PPM,kids typing,PPM
+ShortTitle,5,Text,,,,
+SortTitle,6,Text,,,,
+VoiceTitle,7,Text,,,,
+ShortDescription,8,Text,,"Aprende mecanografía en español gratis: practica con textos reales con tildes, ñ, ¿ y ¡, mira tu velocidad (PPM) y precisión en tiempo real y escribe sin mirar el teclado. Ideal para niños, estudiantes y teletrabajo.","Aprèn mecanografia gratis: practica amb textos reals amb accents, ç i l·l, mira la teva velocitat (PPM) i precisió en temps real i escriu sense mirar el teclat. Ideal per a infants, estudiants i teletreball.","Learn to touch type for free: practise with real texts with accents, ñ, ¿ and ¡, see your speed (WPM) and accuracy in real time and type without looking at the keyboard. Great for kids, students and remote workers."
+DevStudio,9,Text,,Ped4enko,Ped4enko,Ped4enko
+CopyrightTrademarkInformation,12,Text,,© 2026 Ped4enko. Todos los derechos reservados.,© 2026 Ped4enko. Tots els drets reservats.,© 2026 Ped4enko. All rights reserved.
+AdditionalLicenseTerms,13,Text,,,,
+DesktopScreenshot1,100,Relative path (or URL to file in Partner Center),,https://developer.microsoft.com/en-us/dashboard/apps/9MTGZL7G21VP/submissions/1152921505702238189/listings/1152922700028852512/listingassets/3032183126886140303,store-listing/images/ca-es/1-practice.png,store-listing/images/en-us/1-practice.png
+DesktopScreenshot2,101,Relative path (or URL to file in Partner Center),,store-listing/images/es-es/1-practice.png,store-listing/images/ca-es/2-stats.png,store-listing/images/en-us/2-stats.png
+DesktopScreenshot3,102,Relative path (or URL to file in Partner Center),,store-listing/images/es-es/2-stats.png,store-listing/images/ca-es/3-kids-dark.png,store-listing/images/en-us/3-kids-dark.png
+DesktopScreenshot4,103,Relative path (or URL to file in Partner Center),,store-listing/images/es-es/3-kids-dark.png,store-listing/images/ca-es/4-test.png,store-listing/images/en-us/4-test.png
+DesktopScreenshot5,104,Relative path (or URL to file in Partner Center),,store-listing/images/es-es/4-test.png,store-listing/images/ca-es/5-no-accents.png,store-listing/images/en-us/5-no-accents.png
+DesktopScreenshot6,105,Relative path (or URL to file in Partner Center),,store-listing/images/es-es/5-no-accents.png,,
+DesktopScreenshot7,106,Relative path (or URL to file in Partner Center),,,,
+DesktopScreenshot8,107,Relative path (or URL to file in Partner Center),,,,
+DesktopScreenshot9,108,Relative path (or URL to file in Partner Center),,,,
+DesktopScreenshot10,109,Relative path (or URL to file in Partner Center),,,,
+DesktopScreenshot11,110,Relative path (or URL to file in Partner Center),,,,
+DesktopScreenshot12,111,Relative path (or URL to file in Partner Center),,,,
+DesktopScreenshot13,112,Relative path (or URL to file in Partner Center),,,,
+DesktopScreenshot14,113,Relative path (or URL to file in Partner Center),,,,
+DesktopScreenshot15,114,Relative path (or URL to file in Partner Center),,,,
+DesktopScreenshot16,115,Relative path (or URL to file in Partner Center),,,,
+DesktopScreenshot17,116,Relative path (or URL to file in Partner Center),,,,
+DesktopScreenshot18,117,Relative path (or URL to file in Partner Center),,,,
+DesktopScreenshot19,118,Relative path (or URL to file in Partner Center),,,,
+DesktopScreenshot20,119,Relative path (or URL to file in Partner Center),,,,
+DesktopScreenshot21,120,Relative path (or URL to file in Partner Center),,,,
+DesktopScreenshot22,121,Relative path (or URL to file in Partner Center),,,,
+DesktopScreenshot23,122,Relative path (or URL to file in Partner Center),,,,
+DesktopScreenshot24,123,Relative path (or URL to file in Partner Center),,,,
+DesktopScreenshot25,124,Relative path (or URL to file in Partner Center),,,,
+DesktopScreenshot26,125,Relative path (or URL to file in Partner Center),,,,
+DesktopScreenshot27,126,Relative path (or URL to file in Partner Center),,,,
+DesktopScreenshot28,127,Relative path (or URL to file in Partner Center),,,,
+DesktopScreenshot29,128,Relative path (or URL to file in Partner Center),,,,
+DesktopScreenshot30,129,Relative path (or URL to file in Partner Center),,,,
+DesktopScreenshotCaption1,150,Text,,,Practica amb un teclat amb colors per dit i PPM en directe,Practise with a finger-coloured keyboard and live WPM
+DesktopScreenshotCaption2,151,Text,,"Practica con tildes, ñ, ¿ y ¡ y un teclado con colores por dedo","Segueix el progrés amb millor PPM, mitjana i gràfic de sessions","Track your progress with best WPM, average and a session chart"
+DesktopScreenshotCaption3,152,Text,,"Sigue tu progreso con PPM, media y gráfico de sesiones","Mode infants amb frases senzilles, també en tema fosc","Kids mode with simple sentences, also in dark theme"
+DesktopScreenshotCaption4,153,Text,,"Modo niños con frases sencillas, también en tema oscuro",Test de velocitat d'1 minut,1-minute typing speed test
+DesktopScreenshotCaption5,154,Text,,Test de velocidad de 1 minuto,Mode sense accents per començar de zero,No-accents mode for beginners
+DesktopScreenshotCaption6,155,Text,,Modo sin tildes para empezar desde cero,,
+DesktopScreenshotCaption7,156,Text,,,,
+DesktopScreenshotCaption8,157,Text,,,,
+DesktopScreenshotCaption9,158,Text,,,,
+DesktopScreenshotCaption10,159,Text,,,,
+DesktopScreenshotCaption11,160,Text,,,,
+DesktopScreenshotCaption12,161,Text,,,,
+DesktopScreenshotCaption13,162,Text,,,,
+DesktopScreenshotCaption14,163,Text,,,,
+DesktopScreenshotCaption15,164,Text,,,,
+DesktopScreenshotCaption16,165,Text,,,,
+DesktopScreenshotCaption17,166,Text,,,,
+DesktopScreenshotCaption18,167,Text,,,,
+DesktopScreenshotCaption19,168,Text,,,,
+DesktopScreenshotCaption20,169,Text,,,,
+DesktopScreenshotCaption21,170,Text,,,,
+DesktopScreenshotCaption22,171,Text,,,,
+DesktopScreenshotCaption23,172,Text,,,,
+DesktopScreenshotCaption24,173,Text,,,,
+DesktopScreenshotCaption25,174,Text,,,,
+DesktopScreenshotCaption26,175,Text,,,,
+DesktopScreenshotCaption27,176,Text,,,,
+DesktopScreenshotCaption28,177,Text,,,,
+DesktopScreenshotCaption29,178,Text,,,,
+DesktopScreenshotCaption30,179,Text,,,,
+MobileScreenshot1,200,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot2,201,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot3,202,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot4,203,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot5,204,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot6,205,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot7,206,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot8,207,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot9,208,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot10,209,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot11,210,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot12,211,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot13,212,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot14,213,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot15,214,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot16,215,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot17,216,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot18,217,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot19,218,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot20,219,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot21,220,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot22,221,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot23,222,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot24,223,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot25,224,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot26,225,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot27,226,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot28,227,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot29,228,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshot30,229,Relative path (or URL to file in Partner Center),,,,
+MobileScreenshotCaption1,250,Text,,,,
+MobileScreenshotCaption2,251,Text,,,,
+MobileScreenshotCaption3,252,Text,,,,
+MobileScreenshotCaption4,253,Text,,,,
+MobileScreenshotCaption5,254,Text,,,,
+MobileScreenshotCaption6,255,Text,,,,
+MobileScreenshotCaption7,256,Text,,,,
+MobileScreenshotCaption8,257,Text,,,,
+MobileScreenshotCaption9,258,Text,,,,
+MobileScreenshotCaption10,259,Text,,,,
+MobileScreenshotCaption11,260,Text,,,,
+MobileScreenshotCaption12,261,Text,,,,
+MobileScreenshotCaption13,262,Text,,,,
+MobileScreenshotCaption14,263,Text,,,,
+MobileScreenshotCaption15,264,Text,,,,
+MobileScreenshotCaption16,265,Text,,,,
+MobileScreenshotCaption17,266,Text,,,,
+MobileScreenshotCaption18,267,Text,,,,
+MobileScreenshotCaption19,268,Text,,,,
+MobileScreenshotCaption20,269,Text,,,,
+MobileScreenshotCaption21,270,Text,,,,
+MobileScreenshotCaption22,271,Text,,,,
+MobileScreenshotCaption23,272,Text,,,,
+MobileScreenshotCaption24,273,Text,,,,
+MobileScreenshotCaption25,274,Text,,,,
+MobileScreenshotCaption26,275,Text,,,,
+MobileScreenshotCaption27,276,Text,,,,
+MobileScreenshotCaption28,277,Text,,,,
+MobileScreenshotCaption29,278,Text,,,,
+MobileScreenshotCaption30,279,Text,,,,
+XboxScreenshot1,300,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot2,301,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot3,302,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot4,303,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot5,304,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot6,305,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot7,306,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot8,307,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot9,308,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot10,309,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot11,310,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot12,311,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot13,312,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot14,313,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot15,314,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot16,315,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot17,316,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot18,317,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot19,318,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot20,319,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot21,320,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot22,321,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot23,322,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot24,323,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot25,324,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot26,325,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot27,326,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot28,327,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot29,328,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshot30,329,Relative path (or URL to file in Partner Center),,,,
+XboxScreenshotCaption1,350,Text,,,,
+XboxScreenshotCaption2,351,Text,,,,
+XboxScreenshotCaption3,352,Text,,,,
+XboxScreenshotCaption4,353,Text,,,,
+XboxScreenshotCaption5,354,Text,,,,
+XboxScreenshotCaption6,355,Text,,,,
+XboxScreenshotCaption7,356,Text,,,,
+XboxScreenshotCaption8,357,Text,,,,
+XboxScreenshotCaption9,358,Text,,,,
+XboxScreenshotCaption10,359,Text,,,,
+XboxScreenshotCaption11,360,Text,,,,
+XboxScreenshotCaption12,361,Text,,,,
+XboxScreenshotCaption13,362,Text,,,,
+XboxScreenshotCaption14,363,Text,,,,
+XboxScreenshotCaption15,364,Text,,,,
+XboxScreenshotCaption16,365,Text,,,,
+XboxScreenshotCaption17,366,Text,,,,
+XboxScreenshotCaption18,367,Text,,,,
+XboxScreenshotCaption19,368,Text,,,,
+XboxScreenshotCaption20,369,Text,,,,
+XboxScreenshotCaption21,370,Text,,,,
+XboxScreenshotCaption22,371,Text,,,,
+XboxScreenshotCaption23,372,Text,,,,
+XboxScreenshotCaption24,373,Text,,,,
+XboxScreenshotCaption25,374,Text,,,,
+XboxScreenshotCaption26,375,Text,,,,
+XboxScreenshotCaption27,376,Text,,,,
+XboxScreenshotCaption28,377,Text,,,,
+XboxScreenshotCaption29,378,Text,,,,
+XboxScreenshotCaption30,379,Text,,,,
+HolographicScreenshot1,400,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot2,401,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot3,402,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot4,403,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot5,404,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot6,405,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot7,406,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot8,407,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot9,408,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot10,409,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot11,410,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot12,411,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot13,412,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot14,413,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot15,414,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot16,415,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot17,416,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot18,417,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot19,418,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot20,419,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot21,420,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot22,421,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot23,422,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot24,423,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot25,424,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot26,425,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot27,426,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot28,427,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot29,428,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshot30,429,Relative path (or URL to file in Partner Center),,,,
+HolographicScreenshotCaption1,450,Text,,,,
+HolographicScreenshotCaption2,451,Text,,,,
+HolographicScreenshotCaption3,452,Text,,,,
+HolographicScreenshotCaption4,453,Text,,,,
+HolographicScreenshotCaption5,454,Text,,,,
+HolographicScreenshotCaption6,455,Text,,,,
+HolographicScreenshotCaption7,456,Text,,,,
+HolographicScreenshotCaption8,457,Text,,,,
+HolographicScreenshotCaption9,458,Text,,,,
+HolographicScreenshotCaption10,459,Text,,,,
+HolographicScreenshotCaption11,460,Text,,,,
+HolographicScreenshotCaption12,461,Text,,,,
+HolographicScreenshotCaption13,462,Text,,,,
+HolographicScreenshotCaption14,463,Text,,,,
+HolographicScreenshotCaption15,464,Text,,,,
+HolographicScreenshotCaption16,465,Text,,,,
+HolographicScreenshotCaption17,466,Text,,,,
+HolographicScreenshotCaption18,467,Text,,,,
+HolographicScreenshotCaption19,468,Text,,,,
+HolographicScreenshotCaption20,469,Text,,,,
+HolographicScreenshotCaption21,470,Text,,,,
+HolographicScreenshotCaption22,471,Text,,,,
+HolographicScreenshotCaption23,472,Text,,,,
+HolographicScreenshotCaption24,473,Text,,,,
+HolographicScreenshotCaption25,474,Text,,,,
+HolographicScreenshotCaption26,475,Text,,,,
+HolographicScreenshotCaption27,476,Text,,,,
+HolographicScreenshotCaption28,477,Text,,,,
+HolographicScreenshotCaption29,478,Text,,,,
+HolographicScreenshotCaption30,479,Text,,,,
+SurfaceHubScreenshot11,510,Relative path (or URL to file in Partner Center),,,,
+SurfaceHubScreenshot12,511,Relative path (or URL to file in Partner Center),,,,
+SurfaceHubScreenshot13,512,Relative path (or URL to file in Partner Center),,,,
+SurfaceHubScreenshot14,513,Relative path (or URL to file in Partner Center),,,,
+SurfaceHubScreenshot15,514,Relative path (or URL to file in Partner Center),,,,
+SurfaceHubScreenshot16,515,Relative path (or URL to file in Partner Center),,,,
+SurfaceHubScreenshot17,516,Relative path (or URL to file in Partner Center),,,,
+SurfaceHubScreenshot18,517,Relative path (or URL to file in Partner Center),,,,
+SurfaceHubScreenshot19,518,Relative path (or URL to file in Partner Center),,,,
+SurfaceHubScreenshot20,519,Relative path (or URL to file in Partner Center),,,,
+SurfaceHubScreenshot21,520,Relative path (or URL to file in Partner Center),,,,
+SurfaceHubScreenshot22,521,Relative path (or URL to file in Partner Center),,,,
+SurfaceHubScreenshot23,522,Relative path (or URL to file in Partner Center),,,,
+SurfaceHubScreenshot24,523,Relative path (or URL to file in Partner Center),,,,
+SurfaceHubScreenshot25,524,Relative path (or URL to file in Partner Center),,,,
+SurfaceHubScreenshot26,525,Relative path (or URL to file in Partner Center),,,,
+SurfaceHubScreenshot27,526,Relative path (or URL to file in Partner Center),,,,
+SurfaceHubScreenshot28,527,Relative path (or URL to file in Partner Center),,,,
+SurfaceHubScreenshot29,528,Relative path (or URL to file in Partner Center),,,,
+SurfaceHubScreenshot30,529,Relative path (or URL to file in Partner Center),,,,
+SurfaceHubScreenshotCaption11,560,Text,,,,
+SurfaceHubScreenshotCaption12,561,Text,,,,
+SurfaceHubScreenshotCaption13,562,Text,,,,
+SurfaceHubScreenshotCaption14,563,Text,,,,
+SurfaceHubScreenshotCaption15,564,Text,,,,
+SurfaceHubScreenshotCaption16,565,Text,,,,
+SurfaceHubScreenshotCaption17,566,Text,,,,
+SurfaceHubScreenshotCaption18,567,Text,,,,
+SurfaceHubScreenshotCaption19,568,Text,,,,
+SurfaceHubScreenshotCaption20,569,Text,,,,
+SurfaceHubScreenshotCaption21,570,Text,,,,
+SurfaceHubScreenshotCaption22,571,Text,,,,
+SurfaceHubScreenshotCaption23,572,Text,,,,
+SurfaceHubScreenshotCaption24,573,Text,,,,
+SurfaceHubScreenshotCaption25,574,Text,,,,
+SurfaceHubScreenshotCaption26,575,Text,,,,
+SurfaceHubScreenshotCaption27,576,Text,,,,
+SurfaceHubScreenshotCaption28,577,Text,,,,
+SurfaceHubScreenshotCaption29,578,Text,,,,
+SurfaceHubScreenshotCaption30,579,Text,,,,
+StoreLogo720x1080,600,Relative path (or URL to file in Partner Center),,,,
+StoreLogo1080x1080,601,Relative path (or URL to file in Partner Center),,,,
+StoreLogo300x300,602,Relative path (or URL to file in Partner Center),,,,
+OverrideLogosForWin10,603,True/False,,False,False,False
+StoreLogoOverride150x150,604,Relative path (or URL to file in Partner Center),,,,
+StoreLogoOverride71x71,605,Relative path (or URL to file in Partner Center),,,,
+PromoImage1920x1080,606,Relative path (or URL to file in Partner Center),,,,
+PromoImage2400x1200,607,Relative path (or URL to file in Partner Center),,,,
+XboxBrandedKeyArt584x800,608,Relative path (or URL to file in Partner Center),,,,
+XboxTitledHero1920x1080,609,Relative path (or URL to file in Partner Center),,,,
+XboxFeaturedPromo1080x1080,610,Relative path (or URL to file in Partner Center),,,,
+OptionalPromo358x358,611,Relative path (or URL to file in Partner Center),,,,
+OptionalPromo1000x800,612,Relative path (or URL to file in Partner Center),,,,
+OptionalPromo414x180,613,Relative path (or URL to file in Partner Center),,,,
+Feature1,700,Text,,"Textos reales en español con tildes, ñ, ¿ y ¡","Textos reals amb accents, ç, l·l, ñ, ¿ i ¡","Real texts with accents, ñ, ¿ and ¡"
+Feature2,701,Text,,"Velocidad (PPM), precisión y tiempo en tiempo real","Velocitat (PPM), precisió i temps en temps real","Live speed (WPM), accuracy and time"
+Feature3,702,Text,,Teclado español (ISO) con colores por dedo,Teclat espanyol (ISO) amb colors per dit,On-screen keyboard (Spanish ISO or US) with colours per finger
+Feature4,703,Text,,"Ejercicios de distintos niveles, de principiante a avanzado","Exercicis de diferents nivells, de principiant a avançat","Exercises at different levels, from beginner to advanced"
+Feature5,704,Text,,"Itinerarios para niños, estudiantes y teletrabajo","Itineraris per a infants, estudiants i teletreball","Paths for kids, students and remote workers"
+Feature6,705,Text,,Gratis y sin registro,Gratuït i sense registre,"Free, no sign-up"
+Feature7,706,Text,,Test de velocidad de 1 minuto,Test de velocitat d'1 minut,1-minute typing speed test
+Feature8,707,Text,,Modo niños y modo sin tildes,Mode infants i mode sense accents,Kids mode and no-accents mode
+Feature9,708,Text,,"Estadísticas con mejor PPM, media y gráfico de progreso","Estadístiques amb millor PPM, mitjana i gràfic de progrés","Statistics with best WPM, average and progress chart"
+Feature10,709,Text,,"Funciona sin conexión, con tema claro y oscuro","Funciona sense connexió, amb tema clar i fosc","Works offline, with light and dark theme"
+Feature11,710,Text,,"Interfaz en español, catalán e inglés","Interfície en català, castellà i anglès","Interface in English, Spanish and Catalan"
+Feature12,711,Text,,,,
+Feature13,712,Text,,,,
+Feature14,713,Text,,,,
+Feature15,714,Text,,,,
+Feature16,715,Text,,,,
+Feature17,716,Text,,,,
+Feature18,717,Text,,,,
+Feature19,718,Text,,,,
+Feature20,719,Text,,,,
+MinimumHardwareReq1,800,Text,,,,
+MinimumHardwareReq2,801,Text,,,,
+MinimumHardwareReq3,802,Text,,,,
+MinimumHardwareReq4,803,Text,,,,
+MinimumHardwareReq5,804,Text,,,,
+MinimumHardwareReq6,805,Text,,,,
+MinimumHardwareReq7,806,Text,,,,
+MinimumHardwareReq8,807,Text,,,,
+MinimumHardwareReq9,808,Text,,,,
+MinimumHardwareReq10,809,Text,,,,
+MinimumHardwareReq11,810,Text,,,,
+RecommendedHardwareReq1,850,Text,,,,
+RecommendedHardwareReq2,851,Text,,,,
+RecommendedHardwareReq3,852,Text,,,,
+RecommendedHardwareReq4,853,Text,,,,
+RecommendedHardwareReq5,854,Text,,,,
+RecommendedHardwareReq6,855,Text,,,,
+RecommendedHardwareReq7,856,Text,,,,
+RecommendedHardwareReq8,857,Text,,,,
+RecommendedHardwareReq9,858,Text,,,,
+RecommendedHardwareReq10,859,Text,,,,
+RecommendedHardwareReq11,860,Text,,,,
+SearchTerm1,900,Text,,mecanografía,mecanografia,typing
+SearchTerm2,901,Text,,teclear,teclejar,touch typing
+SearchTerm3,902,Text,,escribir rápido,escriure ràpid,typing test
+SearchTerm4,903,Text,,test de velocidad,test de velocitat,typing tutor
+SearchTerm5,904,Text,,mecanografía niños,mecanografia infants,WPM
+SearchTerm6,905,Text,,teclado español,teclat,Spanish typing
+SearchTerm7,906,Text,,PPM,PPM,kids typing
+TrailerToPlayAtTopOfListing,999,Relative path (or URL to file in Partner Center),,,,
+Trailer1,1000,Relative path (or URL to file in Partner Center),,,,
+Trailer2,1001,Relative path (or URL to file in Partner Center),,,,
+Trailer3,1002,Relative path (or URL to file in Partner Center),,,,
+Trailer4,1003,Relative path (or URL to file in Partner Center),,,,
+Trailer5,1004,Relative path (or URL to file in Partner Center),,,,
+Trailer6,1005,Relative path (or URL to file in Partner Center),,,,
+Trailer7,1006,Relative path (or URL to file in Partner Center),,,,
+Trailer8,1007,Relative path (or URL to file in Partner Center),,,,
+Trailer9,1008,Relative path (or URL to file in Partner Center),,,,
+Trailer10,1009,Relative path (or URL to file in Partner Center),,,,
+Trailer11,1010,Relative path (or URL to file in Partner Center),,,,
+Trailer12,1011,Relative path (or URL to file in Partner Center),,,,
+Trailer13,1012,Relative path (or URL to file in Partner Center),,,,
+Trailer14,1013,Relative path (or URL to file in Partner Center),,,,
+Trailer15,1014,Relative path (or URL to file in Partner Center),,,,
+TrailerTitle1,1020,Text,,,,
+TrailerTitle2,1021,Text,,,,
+TrailerTitle3,1022,Text,,,,
+TrailerTitle4,1023,Text,,,,
+TrailerTitle5,1024,Text,,,,
+TrailerTitle6,1025,Text,,,,
+TrailerTitle7,1026,Text,,,,
+TrailerTitle8,1027,Text,,,,
+TrailerTitle9,1028,Text,,,,
+TrailerTitle10,1029,Text,,,,
+TrailerTitle11,1030,Text,,,,
+TrailerTitle12,1031,Text,,,,
+TrailerTitle13,1032,Text,,,,
+TrailerTitle14,1033,Text,,,,
+TrailerTitle15,1034,Text,,,,
+TrailerThumbnail1,1040,Relative path (or URL to file in Partner Center),,,,
+TrailerThumbnail2,1041,Relative path (or URL to file in Partner Center),,,,
+TrailerThumbnail3,1042,Relative path (or URL to file in Partner Center),,,,
+TrailerThumbnail4,1043,Relative path (or URL to file in Partner Center),,,,
+TrailerThumbnail5,1044,Relative path (or URL to file in Partner Center),,,,
+TrailerThumbnail6,1045,Relative path (or URL to file in Partner Center),,,,
+TrailerThumbnail7,1046,Relative path (or URL to file in Partner Center),,,,
+TrailerThumbnail8,1047,Relative path (or URL to file in Partner Center),,,,
+TrailerThumbnail9,1048,Relative path (or URL to file in Partner Center),,,,
+TrailerThumbnail10,1049,Relative path (or URL to file in Partner Center),,,,
+TrailerThumbnail11,1050,Relative path (or URL to file in Partner Center),,,,
+TrailerThumbnail12,1051,Relative path (or URL to file in Partner Center),,,,
+TrailerThumbnail13,1052,Relative path (or URL to file in Partner Center),,,,
+TrailerThumbnail14,1053,Relative path (or URL to file in Partner Center),,,,
+TrailerThumbnail15,1054,Relative path (or URL to file in Partner Center),,,,
+TrailerClosedCaption1,1055,Relative path (or URL to file in Partner Center),,,,
+TrailerClosedCaption2,1056,Relative path (or URL to file in Partner Center),,,,
+TrailerClosedCaption3,1057,Relative path (or URL to file in Partner Center),,,,
+TrailerClosedCaption4,1058,Relative path (or URL to file in Partner Center),,,,
+TrailerClosedCaption5,1059,Relative path (or URL to file in Partner Center),,,,
+TrailerClosedCaption6,1060,Relative path (or URL to file in Partner Center),,,,
+TrailerClosedCaption7,1061,Relative path (or URL to file in Partner Center),,,,
+TrailerClosedCaption8,1062,Relative path (or URL to file in Partner Center),,,,
+TrailerClosedCaption9,1063,Relative path (or URL to file in Partner Center),,,,
+TrailerClosedCaption10,1064,Relative path (or URL to file in Partner Center),,,,
+TrailerClosedCaption11,1065,Relative path (or URL to file in Partner Center),,,,
+TrailerClosedCaption12,1066,Relative path (or URL to file in Partner Center),,,,
+TrailerClosedCaption13,1067,Relative path (or URL to file in Partner Center),,,,
+TrailerClosedCaption14,1068,Relative path (or URL to file in Partner Center),,,,
+TrailerClosedCaption15,1069,Relative path (or URL to file in Partner Center),,,,
+TrailerAudioDescription1,1070,Relative path (or URL to file in Partner Center),,,,
+TrailerAudioDescription2,1071,Relative path (or URL to file in Partner Center),,,,
+TrailerAudioDescription3,1072,Relative path (or URL to file in Partner Center),,,,
+TrailerAudioDescription4,1073,Relative path (or URL to file in Partner Center),,,,
+TrailerAudioDescription5,1074,Relative path (or URL to file in Partner Center),,,,
+TrailerAudioDescription6,1075,Relative path (or URL to file in Partner Center),,,,
+TrailerAudioDescription7,1076,Relative path (or URL to file in Partner Center),,,,
+TrailerAudioDescription8,1077,Relative path (or URL to file in Partner Center),,,,
+TrailerAudioDescription9,1078,Relative path (or URL to file in Partner Center),,,,
+TrailerAudioDescription10,1079,Relative path (or URL to file in Partner Center),,,,
+TrailerAudioDescription11,1080,Relative path (or URL to file in Partner Center),,,,
+TrailerAudioDescription12,1081,Relative path (or URL to file in Partner Center),,,,
+TrailerAudioDescription13,1082,Relative path (or URL to file in Partner Center),,,,
+TrailerAudioDescription14,1083,Relative path (or URL to file in Partner Center),,,,
+TrailerAudioDescription15,1084,Relative path (or URL to file in Partner Center),,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
