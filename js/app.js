@@ -424,6 +424,39 @@ function init() {
   setMode(valid.includes(urlMode) ? urlMode : valid.includes(state.mode) ? state.mode : 'practice');
 
   setupPwa();
+  setupFileHandling();
+}
+
+/** Open a .txt file as practice text (File Handling API / launchQueue). */
+function loadPracticeText(raw) {
+  const cleaned = String(raw || '').replace(/\r\n/g, '\n').replace(/\r/g, '\n').trim().slice(0, 8000);
+  if (!cleaned) return;
+  state.mode = 'practice';
+  safeSet('mi.mode', 'practice');
+  document.querySelectorAll('.mode').forEach((b) => {
+    const active = b.dataset.mode === 'practice';
+    b.classList.toggle('active', active);
+    b.setAttribute('aria-selected', active);
+  });
+  el.trainer.hidden = false;
+  el.stats.hidden = true;
+  state.text = cleaned;
+  reset(false);
+}
+
+function setupFileHandling() {
+  if (!('launchQueue' in window)) return;
+  window.launchQueue.setConsumer(async (launchParams) => {
+    const handles = launchParams.files;
+    if (!handles || !handles.length) return;
+    try {
+      const file = await handles[0].getFile();
+      const text = await file.text();
+      loadPracticeText(text);
+    } catch {
+      /* ignore unreadable files */
+    }
+  });
 }
 
 init();
