@@ -1,5 +1,5 @@
 {
-  "id": "/",
+  "id": "/ms-app/",
   "name": "Mecanografía Info",
   "short_name": "Mecanografía",
   "description": "Practica mecanografía en español gratis y sin conexión: tildes, ñ, ¿ ¡, test de velocidad de 1 minuto, modo niños, modo sin tildes y estadísticas de progreso.",
@@ -14,6 +14,33 @@
   "theme_color": "#0f6b5c",
   "categories": ["education", "productivity", "utilities"],
   "prefer_related_applications": false,
+  "related_applications": [
+    {
+      "platform": "windows",
+      "url": "https://apps.microsoft.com/detail/9mtgzl7g21vp",
+      "id": "9MTGZL7G21VP"
+    },
+    {
+      "platform": "chrome_web_store",
+      "url": "https://chromewebstore.google.com/detail/mecanograf%C3%ADa-test-de-velo/kjafeldbajjbpnjpjdpiahmccpkgmmgb",
+      "id": "kjafeldbajjbpnjpjdpiahmccpkgmmgb"
+    }
+  ],
+  "launch_handler": {
+    "client_mode": ["focus-existing", "auto"]
+  },
+  "file_handlers": [
+    {
+      "action": "./",
+      "accept": {
+        "text/plain": [".txt"]
+      },
+      "icons": [
+        { "src": "icons/icon-96.png", "sizes": "96x96", "type": "image/png" }
+      ],
+      "launch_type": "single-client"
+    }
+  ],
   "icons": [
     { "src": "icons/icon-48.png", "sizes": "48x48", "type": "image/png", "purpose": "any" },
     { "src": "icons/icon-72.png", "sizes": "72x72", "type": "image/png", "purpose": "any" },

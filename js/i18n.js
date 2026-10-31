@@ -40,6 +40,7 @@ export const STRINGS = {
       'Tus resultados se guardan solo en este dispositivo. La app funciona sin conexión.'
     ],
     close: 'Cerrar',
+    about: 'Acerca de',
     privacy: 'Privacidad'
   },
   en: {
@@ -82,6 +83,7 @@ export const STRINGS = {
       'Your results are stored only on this device. The app works offline.'
     ],
     close: 'Close',
+    about: 'About',
     privacy: 'Privacy'
   },
   ca: {
@@ -125,6 +127,7 @@ export const STRINGS = {
       'Els resultats es desen només en aquest dispositiu. L\'app funciona sense connexió.'
     ],
     close: 'Tanca',
+    about: 'Quant a',
     privacy: 'Privadesa'
   }
 };

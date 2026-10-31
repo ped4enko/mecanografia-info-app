@@ -90,13 +90,28 @@ function paint() {
 
   const current = spans[typed.length];
   if (current) {
+    // Keep the line being typed as the second visible line, so finished lines scroll up.
     const box = el.textBox;
     const top = current.offsetTop - box.offsetTop;
-    if (top > box.scrollTop + box.clientHeight - 48 || top < box.scrollTop) {
-      box.scrollTop = Math.max(0, top - 40);
-    }
+    const line = parseFloat(getComputedStyle(box).lineHeight) || 30;
+    box.scrollTop = Math.max(0, top - line - 8);
   }
   highlightKeys(state.text[typed.length]);
+  keepTextVisible();
+}
+
+/** On phones, keep the text box above the on-screen keyboard. */
+function keepTextVisible() {
+  const vv = window.visualViewport;
+  if (!vv || document.activeElement !== el.input) return;
+  const box = el.textBox.getBoundingClientRect();
+  const metrics = el.trainer.querySelector('.metrics').getBoundingClientRect();
+  const viewTop = vv.offsetTop;
+  const viewBottom = vv.offsetTop + vv.height;
+  if (box.top >= viewTop + 4 && box.bottom <= viewBottom - 4) return;
+  // Show the metrics too when they fit, otherwise start the view at the text box.
+  const anchor = box.bottom - metrics.top <= vv.height - 16 ? metrics.top : box.top;
+  window.scrollBy({ top: anchor - viewTop - 8 });
 }
 
 function renderKeyboard() {
@@ -399,6 +414,8 @@ function init() {
     if (e.key === 'Tab') { e.preventDefault(); reset(false); }
   });
   el.textBox.addEventListener('click', focusInput);
+  el.input.addEventListener('focus', () => setTimeout(keepTextVisible, 300));
+  window.visualViewport?.addEventListener('resize', keepTextVisible);
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Tab' && state.finished && !el.trainer.hidden) { e.preventDefault(); reset(false); }
   });
@@ -424,6 +441,39 @@ function init() {
   setMode(valid.includes(urlMode) ? urlMode : valid.includes(state.mode) ? state.mode : 'practice');
 
   setupPwa();
+  setupFileHandling();
+}
+
+/** Open a .txt file as practice text (File Handling API / launchQueue). */
+function loadPracticeText(raw) {
+  const cleaned = String(raw || '').replace(/\r\n/g, '\n').replace(/\r/g, '\n').trim().slice(0, 8000);
+  if (!cleaned) return;
+  state.mode = 'practice';
+  safeSet('mi.mode', 'practice');
+  document.querySelectorAll('.mode').forEach((b) => {
+    const active = b.dataset.mode === 'practice';
+    b.classList.toggle('active', active);
+    b.setAttribute('aria-selected', active);
+  });
+  el.trainer.hidden = false;
+  el.stats.hidden = true;
+  state.text = cleaned;
+  reset(false);
+}
+
+function setupFileHandling() {
+  if (!('launchQueue' in window)) return;
+  window.launchQueue.setConsumer(async (launchParams) => {
+    const handles = launchParams.files;
+    if (!handles || !handles.length) return;
+    try {
+      const file = await handles[0].getFile();
+      const text = await file.text();
+      loadPracticeText(text);
+    } catch {
+      /* ignore unreadable files */
+    }
+  });
 }
 
 init();

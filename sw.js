@@ -1,10 +1,11 @@
 // Offline-first service worker. Bump VERSION on every release so clients pick up new files.
-const VERSION = 'v1.0.1';
+const VERSION = 'v1.0.4';
 const CACHE = `mecanografia-${VERSION}`;
 const ASSETS = [
   './',
   './index.html',
   './privacy.html',
+  './about.html',
   './offline.html',
   './manifest.webmanifest',
   './css/styles.css',

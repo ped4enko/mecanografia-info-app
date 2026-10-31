@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mecanografía Info · Acerca de</title>
+  <meta name="description" content="Qué es Mecanografía Info, en qué plataformas puedes usarla y por qué es útil para niños y adultos.">
+  <link rel="icon" href="icons/favicon.ico" sizes="any">
+  <style>
+    :root { --bg: #f6f4ee; --fg: #1d2422; --muted: #5b6662; --card: #ffffff; --line: #e3e0d6; --accent: #0f6b5c; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #0d1714; --fg: #e8efec; --muted: #9fb0aa; --card: #13221d; --line: #22362f; --accent: #3fbfa5; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; font: 16px/1.6 "Segoe UI", system-ui, sans-serif; background: var(--bg); color: var(--fg); }
+    main { max-width: 820px; margin: 0 auto; padding: 32px 16px 48px; }
+    a { color: var(--accent); }
+    h1 { font-size: 2rem; line-height: 1.2; margin: 0.5rem 0 0.75rem; }
+    h2 { margin-top: 2.25rem; font-size: 1.3rem; }
+    .lead { font-size: 1.1rem; color: var(--muted); }
+    .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px; }
+    .card h3 { margin: 0 0 6px; font-size: 1.05rem; }
+    .card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+    figure { margin: 0; }
+    figure img { width: 100%; height: auto; display: block; border-radius: 12px; border: 1px solid var(--line); }
+    figcaption { font-size: 0.85rem; color: var(--muted); margin-top: 6px; }
+    .shots-wide { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+    .shots-phone { display: grid; gap: 16px; grid-template-columns: repeat(3, 1fr); margin-top: 16px; }
+    @media (max-width: 520px) { .shots-phone { grid-template-columns: repeat(2, 1fr); } }
+    ul { padding-left: 1.2rem; }
+    .btn { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; padding: 10px 18px; border-radius: 10px; font-weight: 600; }
+    @media (prefers-color-scheme: dark) { .btn { color: #0d1714; } }
+    footer { border-top: 1px solid var(--line); margin-top: 40px; padding-top: 16px; font-size: 0.9rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <p><a href="./">← Volver a la práctica</a></p>
+    <h1>Acerca de Mecanografía Info</h1>
+    <p class="lead">Mecanografía Info es un tutor de mecanografía pensado para el español. Practicas con textos reales con tildes, ñ, ¿ y ¡, ves tu velocidad y tu precisión en tiempo real y aprendes a escribir sin mirar el teclado.</p>
+    <p><a class="btn" href="./">Empezar a practicar</a></p>
+
+    <h2>Un poco de historia</h2>
+    <p>La mecanografía nació con las máquinas de escribir a finales del siglo XIX. Pronto se vio que quien escribía con los diez dedos y sin mirar las teclas era mucho más rápido y cometía menos errores. Hoy el teclado está en el ordenador, la tablet y el móvil, pero la idea es la misma: cada dedo tiene sus teclas y los dedos descansan en la fila central, sobre la F y la J.</p>
+    <p>El español añade sus propios retos: acentos, la ñ, la diéresis y los signos de apertura ¿ y ¡. Muchos cursos de mecanografía están pensados para el inglés y no los practican. Mecanografía Info nació para cubrir ese hueco con textos en español de verdad.</p>
+
+    <h2>Cómo es la aplicación</h2>
+    <div class="shots-wide">
+      <figure>
+        <img src="screenshots/wide-practice.png" width="1280" height="800" alt="Modo práctica con texto en español y teclado virtual con colores por dedo" loading="lazy">
+        <figcaption>Práctica con teclado virtual y colores por dedo.</figcaption>
+      </figure>
+      <figure>
+        <img src="screenshots/wide-stats.png" width="1280" height="800" alt="Estadísticas con la mejor velocidad, la media y el gráfico de sesiones" loading="lazy">
+        <figcaption>Estadísticas de tu progreso.</figcaption>
+      </figure>
+    </div>
+    <div class="shots-phone">
+      <figure>
+        <img src="screenshots/phone/1-practice.webp" width="540" height="960" alt="Práctica en el móvil" loading="lazy">
+        <figcaption>En el móvil.</figcaption>
+      </figure>
+      <figure>
+        <img src="screenshots/phone/3-kids-dark.webp" width="540" height="960" alt="Modo niños con tema oscuro" loading="lazy">
+        <figcaption>Modo niños, tema oscuro.</figcaption>
+      </figure>
+      <figure>
+        <img src="screenshots/phone/5-stats.webp" width="540" height="960" alt="Estadísticas en el móvil" loading="lazy">
+        <figcaption>Tu evolución sesión a sesión.</figcaption>
+      </figure>
+    </div>
+
+    <h2>Qué incluye</h2>
+    <div class="grid">
+      <div class="card"><h3>Práctica</h3><p>Textos de varios niveles, de frases cortas a párrafos con más acentos y signos.</p></div>
+      <div class="card"><h3>Test de 1 minuto</h3><p>Mide tus pulsaciones por minuto (PPM) y tu precisión en un minuto exacto.</p></div>
+      <div class="card"><h3>Modo niños</h3><p>Frases cortas y sencillas para ganar confianza, con la precisión antes que la velocidad.</p></div>
+      <div class="card"><h3>Modo sin tildes</h3><p>Para empezar sin acentos y añadirlos cuando ya domines la posición de las teclas.</p></div>
+      <div class="card"><h3>Teclado con colores</h3><p>Distribución española (ISO) o de EE. UU., con un color para cada dedo.</p></div>
+      <div class="card"><h3>Estadísticas</h3><p>Mejor PPM, media y gráfico de tus últimas sesiones.</p></div>
+    </div>
+
+    <h2>En qué plataformas puedes probarla</h2>
+    <ul>
+      <li><strong>En el navegador</strong>: abre <a href="./">mecanografia.info/ms-app</a> en Chrome, Edge, Firefox o Safari, en ordenador, tablet o móvil. Puedes instalarla como aplicación (PWA) con el botón «Instalar app» o desde el menú del navegador.</li>
+      <li><strong>Windows 10 y 11</strong>: disponible en <a href="https://apps.microsoft.com/detail/9mtgzl7g21vp" target="_blank" rel="noopener noreferrer">Microsoft Store</a>.</li>
+      <li><strong>Android</strong>: muy pronto en Google Play.</li>
+      <li><strong>Chrome</strong>: también existe una <a href="https://chromewebstore.google.com/detail/kjafeldbajjbpnjpjdpiahmccpkgmmgb" target="_blank" rel="noopener noreferrer">extensión en Chrome Web Store</a>.</li>
+    </ul>
+
+    <h2>Detalles que conviene saber</h2>
+    <ul>
+      <li><strong>Funciona sin conexión.</strong> Tras la primera visita, la aplicación se guarda en tu dispositivo y puedes practicar sin internet.</li>
+      <li><strong>Mejor con teclado físico.</strong> En el móvil y la tablet funciona con el teclado de la pantalla, pero para aprender mecanografía de verdad recomendamos un teclado físico o Bluetooth.</li>
+      <li><strong>Tus datos se quedan contigo.</strong> Los resultados se guardan solo en tu dispositivo. Si cambias de navegador o de equipo, empiezas de cero.</li>
+      <li><strong>Interfaz en tres idiomas.</strong> Español, catalán e inglés. Los textos de práctica siguen el idioma elegido.</li>
+      <li><strong>Sin registro, sin publicidad y sin pagos.</strong> Todo el contenido es gratuito.</li>
+    </ul>
+
+    <h2>Por qué es útil para niños</h2>
+    <p>Aprender pronto la posición correcta de los dedos evita malos hábitos difíciles de corregir después. El modo niños usa frases cortas y amables, el teclado de colores muestra qué dedo pulsa cada tecla y las estadísticas convierten la práctica en un pequeño reto personal. Además, la aplicación no tiene anuncios ni recoge datos, así que es un entorno tranquilo para practicar en casa o en clase.</p>
+
+    <h2>Por qué es útil para adultos</h2>
+    <p>Escribir sin mirar el teclado ahorra tiempo cada día: correos, informes, chats y trabajos se terminan antes y con menos erratas. Para estudiantes, oposiciones o teletrabajo, unos minutos diarios de práctica se notan en pocas semanas. Y si ya escribes rápido, el test de 1 minuto te ayuda a medir y mejorar tu marca.</p>
+
+    <h2>Disponible en todo el mundo</h2>
+    <p>Mecanografía Info está pensada para cualquier persona que escriba en español, viva donde viva, sin límites por país. La única excepción son los países sujetos a sanciones internacionales, como Rusia y Corea del Norte, donde la aplicación no se distribuye.</p>
+
+    <h2>Privacidad</h2>
+    <p>La aplicación no requiere registro, no recopila datos personales y no incluye publicidad ni analítica. Lee la <a href="privacy.html">política de privacidad</a> completa.</p>
+
+    <footer>
+      © 2026 Ped4enko · <a href="https://mecanografia.info/">mecanografia.info</a> · <a href="privacy.html">Privacidad</a> · <a href="https://mecanografia.info/contact/">Contacto</a>
+    </footer>
+  </main>
+</body>
+</html>
