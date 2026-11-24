@@ -91,10 +91,11 @@ function paint() {
   const current = spans[typed.length];
   if (current) {
     // Keep the line being typed as the second visible line, so finished lines scroll up.
-    const box = el.textBox;
-    const top = current.offsetTop - box.offsetTop;
+    // .text is the scroll box and the spans' offsetParent, so offsetTop is relative to it.
+    const box = el.text;
     const line = parseFloat(getComputedStyle(box).lineHeight) || 30;
-    box.scrollTop = Math.max(0, top - line - 8);
+    const lineIndex = Math.round(current.offsetTop / line);
+    box.scrollTop = Math.max(0, (lineIndex - 1) * line);
   }
   highlightKeys(state.text[typed.length]);
   keepTextVisible();
