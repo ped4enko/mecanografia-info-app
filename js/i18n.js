@@ -41,7 +41,11 @@ export const STRINGS = {
     ],
     close: 'Cerrar',
     about: 'Acerca de',
-    privacy: 'Privacidad'
+    privacy: 'Privacidad',
+    store: 'Microsoft Store',
+    modes: 'Modos',
+    typeHere: 'Escribe aquí',
+    skip: 'Ir al contenido'
   },
   en: {
     tagline: 'Touch typing practice',
@@ -84,7 +88,11 @@ export const STRINGS = {
     ],
     close: 'Close',
     about: 'About',
-    privacy: 'Privacy'
+    privacy: 'Privacy',
+    store: 'Microsoft Store',
+    modes: 'Modes',
+    typeHere: 'Type here',
+    skip: 'Skip to content'
   },
   ca: {
     tagline: 'Pràctica de mecanografia',
@@ -128,7 +136,11 @@ export const STRINGS = {
     ],
     close: 'Tanca',
     about: 'Quant a',
-    privacy: 'Privadesa'
+    privacy: 'Privadesa',
+    store: 'Microsoft Store',
+    modes: 'Modes',
+    typeHere: 'Escriu aquí',
+    skip: 'Vés al contingut'
   }
 };
 

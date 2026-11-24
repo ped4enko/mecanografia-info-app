@@ -323,9 +323,12 @@ function applyLang() {
   });
   document.querySelectorAll('[data-i18n-title]').forEach((node) => {
     const v = s[node.dataset.i18nTitle];
-    node.title = v;
+    if (typeof v !== 'string') return;
+    if (node.tagName !== 'TEXTAREA' && node.tagName !== 'NAV') node.title = v;
     node.setAttribute('aria-label', v);
   });
+  const langSelect = $('langSelect');
+  if (langSelect) langSelect.setAttribute('aria-label', s.language);
   const list = $('helpList');
   list.textContent = '';
   for (const line of s.helpBody) {
