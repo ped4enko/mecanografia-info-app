@@ -1,5 +1,5 @@
 // Offline-first service worker. Bump VERSION on every release so clients pick up new files.
-const VERSION = 'v1.0.5';
+const VERSION = 'v1.0.6';
 const CACHE = `mecanografia-${VERSION}`;
 const ASSETS = [
   './',
@@ -56,7 +56,23 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Static assets: cache first, then network (and remember the response).
+  // Styles and scripts: network first, so they always match the freshly loaded page.
+  if (/\.(css|js)$/.test(new URL(request.url).pathname)) {
+    event.respondWith(
+      fetch(request)
+        .then((res) => {
+          if (res.ok) {
+            const copy = res.clone();
+            caches.open(CACHE).then((c) => c.put(request, copy));
+          }
+          return res;
+        })
+        .catch(() => caches.match(request))
+    );
+    return;
+  }
+
+  // Other static assets (icons, images): cache first, then network (and remember the response).
   event.respondWith(
     caches.match(request).then((cached) => cached || fetch(request).then((res) => {
       if (res.ok) {
