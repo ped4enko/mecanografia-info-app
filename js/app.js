@@ -91,10 +91,11 @@ function paint() {
   const current = spans[typed.length];
   if (current) {
     // Keep the line being typed as the second visible line, so finished lines scroll up.
-    const box = el.textBox;
-    const top = current.offsetTop - box.offsetTop;
+    // .text is the scroll box and the spans' offsetParent, so offsetTop is relative to it.
+    const box = el.text;
     const line = parseFloat(getComputedStyle(box).lineHeight) || 30;
-    box.scrollTop = Math.max(0, top - line - 8);
+    const lineIndex = Math.round(current.offsetTop / line);
+    box.scrollTop = Math.max(0, (lineIndex - 1) * line);
   }
   highlightKeys(state.text[typed.length]);
   keepTextVisible();
@@ -323,9 +324,12 @@ function applyLang() {
   });
   document.querySelectorAll('[data-i18n-title]').forEach((node) => {
     const v = s[node.dataset.i18nTitle];
-    node.title = v;
+    if (typeof v !== 'string') return;
+    if (node.tagName !== 'TEXTAREA' && node.tagName !== 'NAV') node.title = v;
     node.setAttribute('aria-label', v);
   });
+  const langSelect = $('langSelect');
+  if (langSelect) langSelect.setAttribute('aria-label', s.language);
   const list = $('helpList');
   list.textContent = '';
   for (const line of s.helpBody) {

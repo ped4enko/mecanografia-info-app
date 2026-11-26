@@ -14,12 +14,17 @@
   <link rel="icon" href="icons/icon-32.png" sizes="32x32" type="image/png">
   <link rel="apple-touch-icon" href="icons/icon-192.png">
   <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* Keep the skip link hidden even if an older cached styles.css is served. */
+    .skip-link:not(:focus) { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  </style>
   <script>
     // Apply the saved theme before first paint to avoid a flash.
     try { const t = localStorage.getItem('mi.theme'); if (t) document.documentElement.dataset.theme = t; } catch {}
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#main" data-i18n="skip">Ir al contenido</a>
   <header class="topbar">
     <a class="brand" href="./" aria-label="Mecanografía Info">
       <img src="icons/icon-96.png" alt="" width="32" height="32" class="brand-icon">
@@ -31,7 +36,7 @@
     <div class="top-actions">
       <button id="installBtn" class="btn btn-ghost" hidden data-i18n="install">Instalar app</button>
       <label class="visually-hidden" for="langSelect" data-i18n="language">Idioma</label>
-      <select id="langSelect" class="select">
+      <select id="langSelect" class="select" aria-label="Idioma">
         <option value="es">ES</option>
         <option value="en">EN</option>
         <option value="ca">CA</option>
@@ -44,12 +49,12 @@
   </header>
 
   <main id="main">
-    <nav class="modes" role="tablist" aria-label="Modos">
-      <button class="mode" role="tab" data-mode="practice" data-i18n="practice">Práctica</button>
-      <button class="mode" role="tab" data-mode="test" data-i18n="test">Test 1 min</button>
-      <button class="mode" role="tab" data-mode="kids" data-i18n="kids">Niños</button>
-      <button class="mode" role="tab" data-mode="noaccents" data-i18n="noAccents">Sin tildes</button>
-      <button class="mode" role="tab" data-mode="stats" data-i18n="stats">Estadísticas</button>
+    <nav class="modes" role="tablist" data-i18n-title="modes" aria-label="Modos">
+      <button class="mode" role="tab" data-mode="practice" data-i18n="practice" aria-selected="true">Práctica</button>
+      <button class="mode" role="tab" data-mode="test" data-i18n="test" aria-selected="false">Test 1 min</button>
+      <button class="mode" role="tab" data-mode="kids" data-i18n="kids" aria-selected="false">Niños</button>
+      <button class="mode" role="tab" data-mode="noaccents" data-i18n="noAccents" aria-selected="false">Sin tildes</button>
+      <button class="mode" role="tab" data-mode="stats" data-i18n="stats" aria-selected="false">Estadísticas</button>
     </nav>
 
     <section id="trainer" class="panel">
@@ -64,7 +69,7 @@
 
       <div id="textBox" class="text-box" tabindex="0" aria-describedby="hint">
         <div id="text" class="text" aria-hidden="true"></div>
-        <textarea id="input" class="typing-input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="Escribe aquí"></textarea>
+        <textarea id="input" class="typing-input" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" data-i18n-title="typeHere" aria-label="Escribe aquí"></textarea>
       </div>
 
       <div id="result" class="result" hidden>
@@ -97,7 +102,7 @@
     <span>© <span id="year"></span> <a href="https://mecanografia.info/" target="_blank" rel="noopener">mecanografia.info</a></span>
     <a href="about.html" data-i18n="about">Acerca de</a>
     <a href="privacy.html" data-i18n="privacy">Privacidad</a>
-    <a href="https://apps.microsoft.com/detail/9mtgzl7g21vp" target="_blank" rel="noopener noreferrer">Microsoft Store</a>
+    <a href="https://apps.microsoft.com/detail/9mtgzl7g21vp" target="_blank" rel="noopener noreferrer" data-i18n="store">Microsoft Store</a>
   </footer>
 
   <dialog id="helpDialog" class="dialog">
